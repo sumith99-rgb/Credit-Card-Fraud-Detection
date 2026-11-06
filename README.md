@@ -1,62 +1,51 @@
-# Credit-Card-Fraud-Detection
 Credit Card Fraud Detection using Statistical Analysis and XGBoost
 
-# Credit Card Fraud Detection Using Machine Learning
+Project Overview
+The aim of this project is to detect credit card fraud using Statistical Analysis, exploratory data analysis and Machine Learning.
 
-## Project Overview
-This project aims to identify fraudulent credit card transactions using statistical analysis, exploratory data analysis and machine learning.
+Problem Statement
+Credit card fraud is a huge issue when dealing with digital transactions. By analysing patterns of transactions a classification model has been developed.
 
-## Problem Statement
-Credit card fraud is a major concern in digital transactions. This project analyses transaction patterns and develops a classification model to distinguish fraudulent transactions from legitimate ones.
+Dataset
+Credit Card Fraud Detection
+fraudTest.csv
+555,719 records
+23 columns
+is_fraud - target.
 
-## Dataset
-- Dataset: Credit Card Fraud Detection
-- File used: fraudTest.csv
-- Number of records: 555,719
-- Number of columns: 23
-- Target variable: is_fraud
+Technologies Used
+R Programming
+RStudio
+Statistical Analysis
+Data Visualisation
+XGBoost Machine Learning
 
-## Technologies Used
-- R Programming
-- RStudio
-- Statistical Analysis
-- Data Visualization
-- XGBoost Machine Learning
+Methodology
+Data Collection
+Data Preprocessing
+Exploratory Data Analysis
+Statistical Analysis
+Feature Engineering
+Training XGBoost model
 
-## Methodology
-1. Data collection and loading
-2. Data preprocessing
-3. Exploratory Data Analysis
-4. Statistical analysis
-5. Feature engineering
-6. XGBoost model training
-7. Model evaluation
+Model Evaluation
+The model has been evaluated using:
+Accuracy
+Precision
+Recall
+F1 Score
+ROC-AUC
+Confusion Matrix
 
-## Model Evaluation
-The model is evaluated using:
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- ROC-AUC
-- Confusion Matrix
+Repository Contents
+R code
+Dataset Information
+Statistical Visualisations
+Model Evaluation
 
-## Repository Contents
-- R source code
-- Dataset information
-- Statistical visualizations
-- Model evaluation results
-- Output screenshots
-
-## How to Run
-1. Clone or download this repository.
-2. Open the R scripts in RStudio.
-3. Install the required R packages.
-4. Keep the dataset in the appropriate folder.
-5. Run the scripts to generate analysis and model results.
-
-## Team Members
-- Member 1 – Registration Number
-- Member 2 – Registration Number
-- Member 3 – Registration Number
-- Member 4 – Registration Number
+How to Run
+Clone/Download this repository.
+Open the R scripts in RStudio.
+Install required packages.
+Ensure that the dataset is stored in the correct folder.
+Run the scripts to produce the analysis and model results.
